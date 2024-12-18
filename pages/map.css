@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&family=Satisfy&display=swap");
+
+:root {
+  --colorPrimario: rgb(92, 3, 87);
+  --colorSecundario: rgb(35, 14, 59);
+  --colorTerciario: rgb(93, 8, 110);
+  --colorRadialGradient: radial-gradient(
+    circle,
+    rgba(199, 108, 226, 1) 0%,
+    rgba(85, 10, 110, 1) 100%
+  );
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  background: var(--colorRadialGradient);
+}
+/*Header*/
+header {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-inline: auto;
+  border-bottom: solid 1px white;
+}
+.imagenHeader {
+  width: 10rem;
+}
+
+.containerHeader {
+  text-align: center;
+  animation: init-avatar 1s ease-in;
+  padding-inline: auto;
+}
+@keyframes init-avatar {
+  0% {
+    transform: scale(0.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.nombre {
+  font-family: "Belanosima", sans-serif;
+  font-family: "Satisfy", cursive;
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 100;
+}
+
+.ParrafoHeader {
+  font-size: 1rem;
+  color: rgb(220, 230, 222);
+}
+
+.main {
+  margin-top: 0.5rem;
+  color: white;
+  text-align: center;
+}
+iframe {
+  padding-top: 0.5rem;
+}
+
+.btnVolver {
+  width: 6rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  background-color: rgb(35, 14, 59);
+}
+.btnVolver:hover {
+  transition: all 0.1s ease-in;
+  background-color: rgb(93, 8, 110);
+}
+
+i {
+  font-size: 1.2rem;
+  margin-right: 0.3rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer {
+  width: 100vw;
+  margin-bottom: 0px;
+}
+.containerCopyright {
+  background-color: var(--colorSecundario);
+  text-align: center;
+  padding-block: 0.3rem;
+  color: white;
+  border-top: solid 1px white;
+}
+
+.pieDesarrollador {
+  color: white;
+  font-family: "Belanosima", sans-serif;
+  font-family: "Satisfy", cursive;
+  font-size: 1rem;
+}

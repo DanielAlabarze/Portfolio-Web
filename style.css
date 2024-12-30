@@ -464,7 +464,7 @@ i:hover {
   /*background-color: gray;*/
   width: fit-content;
   overflow: hidden;
-  animation: init-text 8s forwards /*infinite*/;
+  animation: init-text 3s forwards /*infinite*/;
   position: relative;
   max-width: 350px;
 }

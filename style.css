@@ -457,17 +457,16 @@ i:hover {
 
 
 /*------------amimacion texto ----------------------------*/
-.ParrafoHeader1 {
+/*.ParrafoHeader1 {
   display: flex;
   justify-content: center;
-
-  /*background-color: gray;*/
+  background-color: gray;
   width: fit-content;
   overflow: hidden;
   animation: init-text 3s forwards /*infinite*/;
-  position: relative;
+  /*position: relative;
   max-width: 350px;
-}
+}  
 
 
 .ParrafoHeader1 {
@@ -483,6 +482,7 @@ i:hover {
 
   }
 }
+*/
 
 
 

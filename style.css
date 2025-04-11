@@ -155,9 +155,17 @@ header {
   color: white;
   font-weight: 100;
 }
-.ParrafoHeader {
-  font-size: 1.9rem;
+.ParrafoHeader1{
+  font-size: 1.5rem;
   color: rgb(220, 230, 222);
+  text-align: center;
+  border-bottom: solid 2px rgb(220, 230, 222);
+}
+
+.ParrafoHeader {
+  font-size: 1.2rem;
+  color: rgb(220, 230, 222);
+  text-align: center;
 }
 
 /*Main---------------------------------------------------*/
@@ -223,7 +231,7 @@ header {
   margin-bottom: 0.5rem;
 
   color: white;
-  border-bottom: solid 4px var(--colorPrimario);
+  border-bottom: solid 4px var(--colorSecundario);
   border-radius: 1.5rem;
 
 }
@@ -509,6 +517,8 @@ i:hover {
 
 /*Media----------------------------------------------------*/
 @media (min-width: 320px) and (max-width: 360px) {
+
+
   .logoNavbar {
     padding-inline: 5rem;
     padding-block: 0.5rem;
@@ -518,6 +528,22 @@ i:hover {
     flex-wrap: wrap;
     margin-inline: auto;
   }
+
+  .ParrafoHeader1{
+    font-size: 1.5rem;
+    color: rgb(220, 230, 222);
+    text-align: center;
+    border-bottom: solid 2px rgb(220, 230, 222);
+  }
+  
+  .ParrafoHeader {
+    font-size: 0.8rem;
+    color: rgb(220, 230, 222);
+    text-align: center;
+  }
+ 
+
+
   .main__parrafos--div {
     width: 100%;
     padding-inline: 0.5rem;
@@ -624,6 +650,25 @@ i:hover {
     flex-wrap: wrap;
     margin-inline: auto;
   }
+
+  .ParrafoHeader1{
+    font-size: 1.4rem;
+    color: rgb(220, 230, 222);
+    text-align: center;
+    border-bottom: solid 2px rgb(220, 230, 222);
+  }
+  
+  .ParrafoHeader {
+    font-size: 0.7rem;
+    color: rgb(220, 230, 222);
+    text-align: center;
+  }
+
+
+
+
+
+
   .main__parrafos--div {
     justify-content: center;
     align-items: center;
@@ -732,7 +777,18 @@ i:hover {
     margin-inline: auto;
   }
 
-
+  .ParrafoHeader1{
+    font-size: 1.7rem;
+    color: rgb(220, 230, 222);
+    text-align: center;
+    border-bottom: solid 2px rgb(220, 230, 222);
+  }
+  
+  .ParrafoHeader {
+    font-size: 1rem;
+    color: rgb(220, 230, 222);
+    text-align: center;
+  }
 
 
 

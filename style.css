@@ -274,6 +274,7 @@ header {
 
 .main__parrafos {
   width: 100%;
+  height: 100%;
   display: flex;
   margin-inline: auto;
   /*border: solid 2px red;*/
@@ -624,17 +625,21 @@ i:hover {
     margin-inline: auto;
   }
   .main__parrafos--div {
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    height: 50%;
     padding-inline: 0.5rem;
     margin-inline: auto;
     margin-block: 0 auto 0;
+    /*border: solid 1px rgb(43, 21, 238);*/
   }
   .main__sobreMi--p {
     width: 100%;
     height: 50%;
     padding: 0.5rem 1rem;
     color: white;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     text-align: justify;
     /*border: solid 1px green;*/
   }
@@ -726,10 +731,20 @@ i:hover {
     align-self: center;
     margin-inline: auto;
   }
+
+
+
+
+
+
   .main__parrafos--div {
+     justify-content: center;
+    align-items: center;
+    height: 50%;
     width: 100%;
     margin-inline: auto;
     margin-block: 0 auto 0;
+    /*order: solid 1px rgb(43, 21, 238);*/
   }
   .main__sobreMi--p {
     width: 100%;
@@ -738,6 +753,7 @@ i:hover {
     color: white;
     font-size: 0.85rem;
     text-align: justify;
+    /*border: solid 1px green;*/
   }
   .stack {
     border-bottom: solid 1px white;

@@ -21,7 +21,7 @@
 
 body {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -42,10 +42,11 @@ header {
   border-bottom: solid 1px white;
 }
 .imagenHeader {
-  width: 10rem;
+  width: 8rem;
 }
 
 .containerHeader {
+  width: 100%;
   text-align: center;
   animation: init-avatar 1s ease-in;
   padding-inline: auto;
@@ -59,6 +60,15 @@ header {
   }
 }
 
+.containerDatos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  padding-inline: auto;
+}
+
 .nombre {
   font-family: "Belanosima", sans-serif;
   font-family: "Satisfy", cursive;
@@ -67,12 +77,34 @@ header {
   font-weight: 100;
 }
 
-.ParrafoHeader {
-  font-size: 1rem;
+.universidades {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgUniversidad {
+  width: 100px;
+}
+
+.ParrafoHeader1 {
+  font-size: 1.4rem;
   color: rgb(220, 230, 222);
+  text-align: center;
+  border-bottom: solid 2px rgb(220, 230, 222);
+}
+
+.ParrafoHeader {
+  font-size: 0.7rem;
+  color: rgb(220, 230, 222);
+  text-align: center;
+  margin-inline: 0.5rem;
 }
 
 .main {
+  width: 100%;
+
   margin-top: 0.5rem;
   color: white;
   text-align: center;
@@ -120,4 +152,45 @@ a {
   font-family: "Belanosima", sans-serif;
   font-family: "Satisfy", cursive;
   font-size: 1rem;
+}
+
+@media (min-width: 521px) and (max-width: 1024px) {
+  .universidades {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imgUniversidad {
+    width: 100px;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 520px) {
+  .universidades {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imgUniversidad {
+    width: 100px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 360px) {
+  .universidades {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imgUniversidad {
+    width: 100px;
+  }
 }

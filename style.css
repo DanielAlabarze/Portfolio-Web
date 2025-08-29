@@ -336,7 +336,7 @@ header {
   justify-content: center;
   align-items: center;
   color: white;
-  background-color: var(--colorPrimario);
+  background-color: var(--colorSecundario);
   margin-inline: auto;
 }
 

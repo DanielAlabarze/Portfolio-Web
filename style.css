@@ -170,6 +170,7 @@ header {
 
 .imgUniversidad {
   width: 150px;
+  margin-top: -0.6rem;
 }
 
 .ParrafoHeader {
@@ -177,6 +178,7 @@ header {
   color: rgb(220, 230, 222);
   text-align: center;
   margin-inline: 0.2rem;
+  margin-top: -0.5rem;
 }
 
 /*Main---------------------------------------------------*/
@@ -257,7 +259,7 @@ header {
   /*border: solid 5px rgb(8, 12, 231);*/
 }
 
-.verMas{
+.verMas {
   font-size: 1rem;
 }
 
@@ -341,12 +343,17 @@ header {
 .lenguajes {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   margin-inline: auto;
 }
 .img-icono {
   width: 3rem;
   margin: 0.5rem;
+}
+.imghithub {
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 /*Contacto---------------------------------------***----*/
@@ -584,6 +591,11 @@ i:hover {
     width: 1.3rem;
   }
 
+  .imghithub {
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+
   .main__contacto--form {
     width: 19rem;
     margin: 1rem;
@@ -721,6 +733,11 @@ i:hover {
   .img-icono {
     width: 1.7rem;
     padding: 0.1rem;
+  }
+
+  .imghithub {
+    width: 2rem;
+    height: 2rem;
   }
 
   .footer {
@@ -866,6 +883,12 @@ i:hover {
     width: 2.7rem;
     margin: 0.5rem;
   }
+
+  .imghithub {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+
   .footer {
     padding-top: 0.2rem;
   }
@@ -930,5 +953,3 @@ i:hover {
     align-self: center;
   }
 }
-
-

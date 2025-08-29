@@ -1,3 +1,6 @@
+
+
+
 const bsCollapse = new bootstrap.Collapse("#navbarNav", {
   toggle: false,
 });
@@ -9,4 +12,7 @@ document.addEventListener("click", (e) => {
 });
 
 
+// Update the footer year dynamically
+// This ensures the footer year is always current
 
+document.querySelector(".footerYear").innerText = new Date().getFullYear();

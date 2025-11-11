@@ -335,18 +335,22 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: var(--colorSecundario);
   /* background-color: var(--colorSecundario); */
-  background-color: rgba(35, 14, 59);
+  background-color: whitesmoke;
   margin-inline: auto;
+
+ 
 }
 
 .lenguajes {
+  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   margin-inline: auto;
+
 }
 .img-icono {
   width: 3rem;
@@ -877,8 +881,8 @@ i:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
-    background-color: var(--colorSecundario);
+  
+ 
     margin-inline: auto;
   }
   .lenguajes {

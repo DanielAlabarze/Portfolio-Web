@@ -78,6 +78,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  transition: all 0.2s ease;
 }
 
 button.navbar-toggler {

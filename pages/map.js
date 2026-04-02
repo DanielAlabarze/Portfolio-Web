@@ -1,0 +1,1 @@
+document.querySelector(".mapYear").innerText = new Date().getFullYear();
